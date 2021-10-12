@@ -2,6 +2,9 @@ import re
 import pickle
 
 import yaml
+import nltk
+nltk.download('stopwords')
+
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
