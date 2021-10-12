@@ -4,6 +4,8 @@ import pickle
 import yaml
 import nltk
 nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
 
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
